@@ -1,0 +1,36 @@
+---
+layout: essay
+type: essay
+title: "E5: Reflecting on Assignment 2 Technical Essay"
+# All dates must be YYYY-MM-DD format!
+date: 2022-11-22
+published: true
+labels:
+  - E5
+  - Essay
+  - Assignment
+---
+
+<h2>Provide a brief introduction to the assignment along with a link to this page for further details.</h2>
+In [Assignment 2](https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2.html) we are asked to imagine a scenario where the marketing director of a company we work for asks us to upgrade the website that we had previously designed for him ([Assignment 1](https://dport96.github.io/ITM352/morea/130.Assignment1/experience-Assignment1.html)). We are tasked with personalizing the website for each user, creating a registration form where users can register data, and creating a login form to save this data in the system. We could not allow users to purchase products unless they have logged in, however, anyone should be able to view the products.<br>
+
+<h2>What did you learn from this assignment?</h2>
+From this assignment I learned how to implement the Node.js file system module in order to read, create, and update my files through the server. For example, when someone registered as a new user, I used fs.writeFileSync in order to add that user's information to the file where I was keeping other user’s information. Another thing I learned was to use and create regular expressions. For example, I used a regular expression to check if a person’s email was valid.<br>
+  
+<h2>Did you work with a partner? Assign an estimated percentage on the amount each team member contributed to the assignment (including yourself).</h2>
+Did this assignment on my own!<br>
+  
+<h2>How did you get help when you needed it? What did you need help with?</h2>
+When I needed help, I was able to make an appointment with Professor Port and spend time looking over my project. I needed help with implementing my individual requirement and how to enable users to edit their registration, which I was able to solve thanks to the help I got.<br>
+  
+<h2>How was developing this assignment different than assignment #1?</h2>
+This assignment, I feel like, had a lot more requirements than Assignment 1 did, so implementing all the requirements took a lot more time and logical thinking (such as checking if the emails, passwords, and names were valid). I also found out, through meeting with Professor Port, that using Nodemon became difficult when also using the Node.js file system module because it would restart the server. For example, when trying to keep track of the quantity available, it would restart and lose the previous information the user submitted.<br>
+  
+<h2>Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging.</h2>
+Personally, I feel like I spent about 50% of my time actually thinking about how I should go about implementing the code that would complete the given requirements. I think I spent about 10% of my time actually writing my code, since it didn’t take that long to put into code after thinking about what I needed to get done. And lastly, I believe I spent about 40% of my time actually testing and debugging my code, since I did run into some problems.<br>
+  
+<h2>Describe what worked well with this project? What did not work well?</h2>
+Using the Node.js file system module, saving registration information was relatively easy and I believe that I implemented this correctly in my assignment. The same goes for checking if the login information existed in another file. However, originally I was putting user information in another file (such as the quantities they wanted to checkout) and I found this was not the most efficient way. Professor Port helped me put the information in a variable instead, which worked a lot better.<br>
+
+<h2>If you could go back in time and do things differently, what would you do differently?</h2>
+I would start on this project a bit sooner than when I did. I found that I spent a lot of time just thinking about how I was going to go about completing these requirements (as stated previously) that was very time consuming. I would start my project a day or two sooner so that I could get help earlier and save me some time instead of trying to figure it out on my own.<br>
